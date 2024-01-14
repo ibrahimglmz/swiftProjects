@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fotografPaylasmaUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZOa-qM-KGz">
+                                <rect key="frame" x="42" y="281" width="322" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="lFm-sI-lfI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifre Giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lgI-Wm-xmn">
+                                <rect key="frame" x="42" y="347" width="322" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="zPd-RY-hGb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fotograf Paylasma Uygulamasi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIp-1d-bqe">
+                                <rect key="frame" x="22" y="55" width="355" height="139"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jem-53-KNx">
+                                <rect key="frame" x="42" y="437" width="91" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Giriş Yap"/>
+                                <connections>
+                                    <action selector="girisYapTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XFa-8A-ogM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4Y-tq-neS">
+                                <rect key="frame" x="281" y="437" width="83" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Kayıt Ol"/>
+                                <connections>
+                                    <action selector="kayitYapTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mbv-by-XnD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lgI-Wm-xmn" firstAttribute="leading" secondItem="Jem-53-KNx" secondAttribute="leading" id="1Fz-7s-jU7"/>
+                            <constraint firstItem="ZOa-qM-KGz" firstAttribute="leading" secondItem="lgI-Wm-xmn" secondAttribute="leading" id="2Yy-MX-V9F"/>
+                            <constraint firstItem="ZOa-qM-KGz" firstAttribute="top" secondItem="qIp-1d-bqe" secondAttribute="bottom" constant="87" id="2gF-Ns-Kp3"/>
+                            <constraint firstItem="ZOa-qM-KGz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="GJt-Gm-gSI"/>
+                            <constraint firstItem="lgI-Wm-xmn" firstAttribute="top" secondItem="ZOa-qM-KGz" secondAttribute="bottom" constant="32" id="JXE-vn-kLS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jem-53-KNx" secondAttribute="bottom" constant="380" id="YH3-ug-pI9"/>
+                            <constraint firstItem="Jem-53-KNx" firstAttribute="baseline" secondItem="a4Y-tq-neS" secondAttribute="baseline" id="ZXh-jT-gTR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZOa-qM-KGz" secondAttribute="trailing" constant="29" id="bcm-f2-xCU"/>
+                            <constraint firstItem="a4Y-tq-neS" firstAttribute="baseline" secondItem="Jem-53-KNx" secondAttribute="firstBaseline" id="hhf-Oc-ppf"/>
+                            <constraint firstItem="ZOa-qM-KGz" firstAttribute="trailing" secondItem="lgI-Wm-xmn" secondAttribute="trailing" id="oc2-J2-Hzd"/>
+                            <constraint firstItem="qIp-1d-bqe" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ppO-16-npY"/>
+                            <constraint firstItem="lgI-Wm-xmn" firstAttribute="trailing" secondItem="a4Y-tq-neS" secondAttribute="trailing" id="rkj-FY-GAd"/>
+                            <constraint firstItem="Jem-53-KNx" firstAttribute="top" secondItem="lgI-Wm-xmn" secondAttribute="bottom" constant="56" id="vN7-8p-fNe"/>
+                            <constraint firstItem="qIp-1d-bqe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="wlH-6N-MRV"/>
+                            <constraint firstItem="qIp-1d-bqe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="wn7-fQ-OLY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="ZOa-qM-KGz" id="HvR-Xw-gYc"/>
+                        <outlet property="sifreTextfield" destination="lgI-Wm-xmn" id="HVy-0X-9PT"/>
+                        <segue destination="6b6-vg-0xm" kind="presentation" identifier="toFeedVC" modalPresentationStyle="fullScreen" id="Ooy-F0-bBC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-721.37404580152668" y="-246.47887323943664"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="yve-97-8Pn">
+            <objects>
+                <viewController id="3Jx-Ik-Oxx" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fBs-sI-5Yf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-Za-wkL">
+                                <rect key="frame" x="150" y="426" width="94" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cıkış Yap"/>
+                                <connections>
+                                    <action selector="cikisYapTiklandi:" destination="bXJ-6q-YgY" eventType="touchUpInside" id="i72-cm-t5a"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="5vs-ew-0cy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wSD-Rh-nAI"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="person" catalog="system" id="sCt-ja-loJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7P6-Qf-XdY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bXJ-6q-YgY" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="881"/>
+        </scene>
+        <!--Upload-->
+        <scene sceneID="Pur-nZ-lAh">
+            <objects>
+                <viewController id="kjn-kl-VhB" customClass="uploadViewController" customModule="fotografPaylasmaUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJW-k6-3Lk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yükleme" translatesAutoresizingMaskIntoConstraints="NO" id="AYy-Q1-Bz2">
+                                <rect key="frame" x="51" y="63" width="291" height="249"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="249" id="Knh-Ht-cku"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Yorum Yaziniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ATz-h1-ary">
+                                <rect key="frame" x="51" y="415" width="291" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puY-e3-InZ">
+                                <rect key="frame" x="160" y="546" width="73" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Paylaş"/>
+                                <connections>
+                                    <action selector="UploadTiklandi:" destination="kjn-kl-VhB" eventType="touchUpInside" id="Yex-zV-KEh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dKU-hm-JgW"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ATz-h1-ary" firstAttribute="centerX" secondItem="puY-e3-InZ" secondAttribute="centerX" id="31I-ZZ-xDZ"/>
+                            <constraint firstItem="AYy-Q1-Bz2" firstAttribute="leading" secondItem="ATz-h1-ary" secondAttribute="leading" id="7bw-Jo-XWE"/>
+                            <constraint firstItem="AYy-Q1-Bz2" firstAttribute="trailing" secondItem="ATz-h1-ary" secondAttribute="trailing" id="M7C-BX-7GH"/>
+                            <constraint firstItem="dKU-hm-JgW" firstAttribute="bottom" secondItem="puY-e3-InZ" secondAttribute="bottom" constant="222" id="WXg-cR-49P"/>
+                            <constraint firstItem="AYy-Q1-Bz2" firstAttribute="centerX" secondItem="oJW-k6-3Lk" secondAttribute="centerX" id="WdS-98-l4I"/>
+                            <constraint firstItem="AYy-Q1-Bz2" firstAttribute="leading" secondItem="dKU-hm-JgW" secondAttribute="leading" constant="51" id="Xpw-1w-fIh"/>
+                            <constraint firstItem="AYy-Q1-Bz2" firstAttribute="top" secondItem="dKU-hm-JgW" secondAttribute="top" constant="63" id="j9F-pL-WTa"/>
+                            <constraint firstItem="puY-e3-InZ" firstAttribute="top" secondItem="ATz-h1-ary" secondAttribute="bottom" constant="96" id="pne-67-IJE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Upload" image="tray.and.arrow.down.fill" catalog="system" id="isk-km-Fo8"/>
+                    <connections>
+                        <outlet property="ImageView" destination="AYy-Q1-Bz2" id="6sb-Es-clQ"/>
+                        <outlet property="yorumTextField" destination="ATz-h1-ary" id="4JQ-tc-erW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syS-ZP-yta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1023.6641221374045" y="107.74647887323944"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="Bfk-rJ-6v2">
+            <objects>
+                <viewController id="uwU-wx-67w" customClass="FeedViewController" customModule="fotografPaylasmaUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J3x-XX-fYr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mw4-CU-eMt"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feed" image="mosaic.fill" catalog="system" id="ym3-BI-61s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYB-eO-4Ie" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-587"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DzW-tg-dxq">
+            <objects>
+                <tabBarController storyboardIdentifier="tabBar" id="6b6-vg-0xm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Hhb-uf-IHd"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZHS-7b-ELU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uwU-wx-67w" kind="relationship" relationship="viewControllers" id="cIu-5o-fAD"/>
+                        <segue destination="kjn-kl-VhB" kind="relationship" relationship="viewControllers" id="kIH-Wx-Pwy"/>
+                        <segue destination="3Jx-Ik-Oxx" kind="relationship" relationship="viewControllers" id="uyu-DD-lrz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbn-2G-dEW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="-246"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mosaic.fill" catalog="system" width="128" height="114"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="tray.and.arrow.down.fill" catalog="system" width="128" height="115"/>
+        <image name="yükleme" width="282" height="178"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

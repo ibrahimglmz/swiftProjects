@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hesapMakinesi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="sayi giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hry-eR-K5e">
+                                <rect key="frame" x="16" y="154" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="sayi giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wYK-Na-aga">
+                                <rect key="frame" x="16" y="211" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOK-pX-1gf">
+                                <rect key="frame" x="115" y="339" width="35" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+"/>
+                                <connections>
+                                    <action selector="artiTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ETO-07-OIs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geK-tv-Yev">
+                                <rect key="frame" x="160" y="339" width="32" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="-"/>
+                                <connections>
+                                    <action selector="eksiTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z63-W3-QIo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngb-zT-XO5">
+                                <rect key="frame" x="197" y="339" width="32" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="*"/>
+                                <connections>
+                                    <action selector="carpmaTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A1d-e8-DIw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ye8-Q4-8ve">
+                                <rect key="frame" x="248" y="339" width="29" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="/"/>
+                                <connections>
+                                    <action selector="bölmeTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JYd-dY-mIe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="toplam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9x-pL-9za">
+                                <rect key="frame" x="113" y="511" width="166" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="rfy-iS-CvL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hry-eR-K5e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6Vg-gn-hUa"/>
+                            <constraint firstItem="hry-eR-K5e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="95" id="7Sm-KO-z1o"/>
+                            <constraint firstItem="hry-eR-K5e" firstAttribute="trailing" secondItem="wYK-Na-aga" secondAttribute="trailing" id="B2c-fi-Ozz"/>
+                            <constraint firstItem="wYK-Na-aga" firstAttribute="centerX" secondItem="x9x-pL-9za" secondAttribute="centerX" id="M0V-MA-Pwk"/>
+                            <constraint firstItem="Ye8-Q4-8ve" firstAttribute="leading" secondItem="ngb-zT-XO5" secondAttribute="trailing" constant="19" id="OTZ-JZ-r6d"/>
+                            <constraint firstItem="geK-tv-Yev" firstAttribute="baseline" secondItem="ngb-zT-XO5" secondAttribute="baseline" id="R9L-4Q-0d6"/>
+                            <constraint firstItem="hry-eR-K5e" firstAttribute="leading" secondItem="wYK-Na-aga" secondAttribute="leading" id="Rlt-hC-ciH"/>
+                            <constraint firstItem="ngb-zT-XO5" firstAttribute="baseline" secondItem="Ye8-Q4-8ve" secondAttribute="baseline" id="Tdp-JL-0eX"/>
+                            <constraint firstItem="hry-eR-K5e" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UY5-3W-7kv"/>
+                            <constraint firstItem="x9x-pL-9za" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="aId-8l-IIQ"/>
+                            <constraint firstItem="XOK-pX-1gf" firstAttribute="top" secondItem="wYK-Na-aga" secondAttribute="bottom" constant="94" id="dFf-3h-FkW"/>
+                            <constraint firstItem="ngb-zT-XO5" firstAttribute="leading" secondItem="geK-tv-Yev" secondAttribute="trailing" constant="5" id="jip-y2-JeS"/>
+                            <constraint firstItem="XOK-pX-1gf" firstAttribute="baseline" secondItem="geK-tv-Yev" secondAttribute="baseline" id="lna-zE-b0h"/>
+                            <constraint firstItem="wYK-Na-aga" firstAttribute="top" secondItem="hry-eR-K5e" secondAttribute="bottom" constant="23" id="o0P-5d-Qfs"/>
+                            <constraint firstItem="XOK-pX-1gf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="115" id="oGZ-hn-YRd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x9x-pL-9za" secondAttribute="bottom" constant="259" id="rvE-zQ-rIc"/>
+                            <constraint firstItem="geK-tv-Yev" firstAttribute="leading" secondItem="XOK-pX-1gf" secondAttribute="trailing" constant="10" id="zq3-KS-9eF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ikinciSayi" destination="wYK-Na-aga" id="Xir-NW-rGv"/>
+                        <outlet property="ilkSayi" destination="hry-eR-K5e" id="3GC-2X-tfv"/>
+                        <outlet property="toplamSayi" destination="x9x-pL-9za" id="TbB-wX-m6J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

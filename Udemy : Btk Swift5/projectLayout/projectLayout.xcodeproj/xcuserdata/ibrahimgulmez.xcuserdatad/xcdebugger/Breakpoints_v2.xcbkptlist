@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5A5316BA-B70F-438B-858D-60EB4152165A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "projectLayout/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0 - e1d36c4208c81726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "projectLayout.ViewController.nameTextField.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "projectLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimgulmez/Desktop/udemy%20swift5/projectLayout/projectLayout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0 - 7f9bdb684ee5f332"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "projectLayout.ViewController.nameTextField.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "projectLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimgulmez/Desktop/udemy%20swift5/projectLayout/projectLayout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0 - 59cd5eb6a0887c23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "projectLayout.ViewController.nameTextField.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "projectLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimgulmez/Desktop/udemy%20swift5/projectLayout/projectLayout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0 - 4ec819e6e8e69b16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "projectLayout.ViewController.nameTextField.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "projectLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimgulmez/Desktop/udemy%20swift5/projectLayout/projectLayout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0 - 4d503647284ec37d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "projectLayout.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; projectLayout.ViewController"
+                  moduleName = "projectLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimgulmez/Desktop/udemy%20swift5/projectLayout/projectLayout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "66DE6D40-7FB0-4630-ACE8-44F02DB88CF0 - 841b1ef9eb1ba806"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "projectLayout.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;projectLayout.ViewController&gt;"
+                  moduleName = "projectLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimgulmez/Desktop/udemy%20swift5/projectLayout/projectLayout/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
